@@ -33,3 +33,20 @@ Used in dissertation.
 Modelled as a truss.
 ![](double-cantilever-spaceframe/double-cantilever-spaceframe-init.png)
 ![](double-cantilever-spaceframe/double-cantilever-spaceframe-optimized.png)
+
+# `strange-frame`
+A freeform frame structure with and without spine supports.
+Used in dissertation.
+Modelled as a frame.
+![](strange-frame/strange-frame-init.png)
+![](strange-frame/strange-frame-init-frameonly.png)
+![](strange-frame/strange-frame-reinforced.png)
+
+# `multimat-bridge`
+A steel/timber hybrid bridge structure.
+Initial configuration + 64 combinations of steel/timber across 6 different element groups.
+Used in dissertation.
+Modelled as trusses.
+![](multimat-bridge/bridge.png)
+
+# `salginatobel`
