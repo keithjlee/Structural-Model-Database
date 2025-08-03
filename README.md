@@ -1,10 +1,13 @@
 # Structural Model Database
-
-This is a repository of .JSON files representing the topology and section properties of structural model geometries used throughout my PhD dissertation:
+This is a repository of .JSON files representing the topology and section properties of structural model geometries.
+The majority were used throughout my PhD dissertation:
 
 *Geometric interpretations of structural demand for the analysis and reduction of design complexity*
 
-More structural examples will be added as my research progresses.
+Each .JSON is fairly self-explanatory, providing a collection of `node` objects with position and degree of freedom data, a collection of `element` objects that provide topological information as well as a `section` object that defines cross-sectional properties.
+Loads can be found under `nodeforce` objects, which encode the index of the associated node as well as the load vector.
+
+The majority of these structures are trusses, but all nodes are listed with 6 degrees of freedom (X,Y,Z,Rx,Ry,Rz); when listed as a truss, simply take the first three values only.
 
 
 # `biosphere`
